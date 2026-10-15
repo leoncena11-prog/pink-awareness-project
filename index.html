@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7a8c4">
+  <meta name="description" content="MUAJI ROZË — Informohu për kancerin e gjirit, zbulimin e hershëm dhe rëndësinë e mbështetjes.">
+  <title>MUAJI ROZË | Ndërgjegjësimi për kancerin e gjirit</title>
+  <style>
+    :root {
+      --pink: #d94f87;
+      --light: #fff0f6;
+      --dark: #382332;
+      --muted: #6c5a66;
+      --white: #fff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--dark);
+      background: #fffafd;
+      line-height: 1.7;
+    }
+    header {
+      background: var(--white);
+      padding: 17px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      border-bottom: 1px solid #f4dce7;
+    }
+    .brand { font-weight: 800; color: var(--pink); letter-spacing: 1px; }
+    nav a { color: var(--dark); text-decoration: none; margin-left: 15px; font-size: 14px; }
+    .hero {
+      padding: 75px 7% 65px;
+      text-align: center;
+      background: radial-gradient(circle at top, #fff 0, #ffe5ef 75%);
+    }
+    .ribbon { font-size: 48px; color: var(--pink); }
+    .eyebrow { text-transform: uppercase; letter-spacing: 3px; color: var(--pink); font-weight: bold; font-size: 12px; }
+    h1 { font-size: clamp(32px, 6vw, 58px); line-height: 1.12; margin: 15px auto; max-width: 850px; }
+    h2 { font-size: 27px; line-height: 1.25; }
+    .hero p { max-width: 700px; margin: 20px auto; color: var(--muted); font-size: 18px; }
+    .button {
+      display: inline-block; background: var(--pink); color: white;
+      padding: 14px 23px; border-radius: 30px; text-decoration: none;
+      font-weight: bold; margin-top: 14px;
+    }
+    main { max-width: 1050px; padding: 20px; margin: auto; }
+    section { padding: 34px 0; scroll-margin-top: 20px; }
+    .intro { max-width: 780px; color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .card { background: white; border: 1px solid #f3dce6; padding: 23px; border-radius: 18px; }
+    .card h3 { margin-top: 0; color: #b93670; }
+    .notice { background: var(--light); border-left: 5px solid var(--pink); padding: 20px; border-radius: 10px; }
+    li { margin-bottom: 9px; }
+    .sources a { color: #a62c65; overflow-wrap: anywhere; }
+    .cta { text-align: center; background: #fae0eb; padding: 35px 20px; border-radius: 20px; }
+    footer { text-align: center; background: #382332; color: white; padding: 25px 15px; margin-top: 25px; }
+    footer p { margin: 5px; }
+    @media (max-width: 650px) {
+      header { flex-direction: column; }
+      nav a { margin: 0 6px; }
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding: 50px 20px; }
+      h2 { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">🎀 MUAJI ROZË</div>
+    <nav aria-label="Navigimi kryesor">
+      <a href="#rreth">Informohu</a>
+      <a href="#shenjat">Shenjat</a>
+      <a href="#kontrollet">Kontrollet</a>
+      <a href="#burimet">Burimet</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="ribbon" aria-hidden="true">🎀</div>
+    <div class="eyebrow">Ndërgjegjësim · Mbështetje · Shpresë</div>
+    <h1>MUAJI ROZË — NGRIJE ZËRIN, RRIT NDËRGJEGJËSIMIN</h1>
+    <p>Njohuria, kujdesi dhe mbështetja mund të bëjnë ndryshim. Informohu për shëndetin e gjirit dhe ndihmo që informacioni i besueshëm të arrijë te të gjithë.</p>
+    <a class="button" href="kuizi.html">TESTO NJOHURITË E TUA →</a>
+  </div>
+
+  <main>
+    <section id="rreth">
+      <h2>Çfarë është kanceri i gjirit?</h2>
+      <p class="intro">Kanceri i gjirit është një sëmundje që shfaqet kur disa qeliza të gjirit fillojnë të shumohen në mënyrë të pakontrolluar. Ai mund të prekë gra dhe, më rrallë, burra. Informimi ndihmon në kuptimin e shenjave, faktorëve të rrezikut dhe mundësive për kujdes shëndetësor.</p>
+      <div class="notice"><strong>Mbaje mend:</strong> Një ndryshim në gji nuk do të thotë patjetër kancer, por duhet vlerësuar nga një profesionist shëndetësor.</div>
+    </section>
+
+    <section>
+      <h2>Pse ka rëndësi zbulimi i hershëm?</h2>
+      <p>Zbulimi në faza të hershme mund të përmirësojë mundësitë e trajtimit. Informimi për ndryshimet e gjirit, vlerësimi mjekësor në kohë dhe kontrollet e rekomanduara sipas moshës dhe rrezikut individual janë pjesë të rëndësishme të kujdesit shëndetësor.</p>
+    </section>
+
+    <section id="shenjat">
+      <h2>Shenjat dhe ndryshimet që duhen vlerësuar</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Ndryshime që mund të vërehen</h3>
+          <ul>
+            <li>Një kokërr ose ënjtje e re në gji apo në sqetull.</li>
+            <li>Ndryshim i pazakontë në madhësinë ose formën e gjirit.</li>
+            <li>Ndryshime të lëkurës, si gropëzime, skuqje ose trashje.</li>
+            <li>Thithkë që futet brenda rishtazi ose ndryshon pamje.</li>
+            <li>Sekrecion nga thithka, veçanërisht nëse ka gjak.</li>
+            <li>Dhimbje e vazhdueshme ose ndryshim që nuk largohet.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Çfarë duhet të bësh?</h3>
+          <p>Nëse vëren një ndryshim të ri ose të pazakontë, kërko këshillë nga mjeku. Mos prit vetëm sepse nuk ke dhimbje. Shumë ndryshime kanë shkaqe jo kanceroze, ndaj vlerësimi profesional është i rëndësishëm.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Faktorët e rrezikut</h2>
+      <p>Rreziku mund të ndikohet nga disa faktorë, përfshirë moshën, historinë familjare, disa ndryshime gjenetike të trashëguara, historinë personale të sëmundjes dhe disa faktorë hormonalë e të stilit të jetesës.</p>
+      <div class="notice"><strong>E rëndësishme:</strong> Të kesh një ose më shumë faktorë rreziku nuk do të thotë se patjetër do të zhvillosh kancer. Edhe personat pa faktorë të njohur rreziku mund të preken.</div>
+    </section>
+
+    <section id="kontrollet">
+      <h2>Kontrollet dhe kujdesi shëndetësor</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Konsultohu me profesionistë</h3>
+          <p>Mjeku mund të vlerësojë ndryshimet, historinë familjare dhe rrezikun individual, si dhe të këshillojë për hapat e mëtejshëm.</p>
+        </article>
+        <article class="card">
+          <h3>Kontrollet e rekomanduara</h3>
+          <p>Mamografia dhe kontrollet e tjera rekomandohen sipas udhëzimeve shëndetësore, moshës dhe rrezikut individual. Pyet profesionistin shëndetësor se çfarë është e përshtatshme për ty.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Mbështetje pa paragjykime</h2>
+      <p>Personat që përballen me kancerin meritojnë respekt, privatësi dhe mbështetje. Dëgjoji pa gjykuar, mos shpërnda të dhëna personale pa leje dhe ofro ndihmë praktike kur kërkohet. Një diagnozë nuk e përcakton vlerën apo identitetin e një personi.</p>
+    </section>
+
+    <section class="cta">
+      <h2>Informohu. Kujdesu për veten.</h2>
+      <p>Ndihmo në ndërgjegjësimin e të tjerëve duke shpërndarë informacion të besueshëm.</p>
+      <a class="button" href="kuizi.html">TESTO NJOHURITË E TUA</a>
+    </section>
+
+    <section id="burimet" class="sources">
+      <h2>Burime të besueshme shëndetësore</h2>
+      <ul>
+        <li><a href="https://www.who.int/news-room/fact-sheets/detail/breast-cancer" target="_blank" rel="noopener noreferrer">Organizata Botërore e Shëndetësisë — Kanceri i gjirit</a></li>
+        <li><a href="https://www.cancer.gov/types/breast" target="_blank" rel="noopener noreferrer">National Cancer Institute — Informacion për kancerin e gjirit</a></li>
+        <li><a href="https://www.nhs.uk/conditions/breast-cancer/" target="_blank" rel="noopener noreferrer">NHS — Kanceri i gjirit</a></li>
+      </ul>
+      <p><small>Kjo faqe është material edukativ për projekt shkollor dhe nuk zëvendëson këshillën, ekzaminimin apo diagnozën nga profesionistët shëndetësorë.</small></p>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>MUAJI ROZË</strong></p>
+    <p>Informim · Ndërgjegjësim · Mbështetje</p>
+    <p>Projekt edukativ shkollor</p>
+  </footer>
+</body>
+</html>
